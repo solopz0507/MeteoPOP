@@ -23,15 +23,7 @@ section {
     text-align: center;
 }
 
-#Présentation:hover {
-    background-color: rgb(103, 95, 134);
-}
-
-#Programmation:hover {
-    background-color: rgb(103, 95, 134);
-}
-
-#Infos-pratiques:hover {
+section:hover {
     background-color: rgb(103, 95, 134);
 }
 

@@ -28,11 +28,11 @@ section {
 }
 
 #Programmation:hover {
-    background-color: rgb(126, 130, 167);
+    background-color: rgb(103, 95, 134);
 }
 
 #Infos-pratiques:hover {
-    background-color: rgb(113, 138, 105);
+    background-color: rgb(103, 95, 134);
 }
 
 #logo {
@@ -103,6 +103,7 @@ button {
 
 #Présentation button:focus {
     border-style: hidden;
+    color: black;
 }
 
 #Programmation button {

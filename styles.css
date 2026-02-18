@@ -91,6 +91,13 @@ button {
     border-radius: 60px;
     background-color: #f9fdc1;
     color: #1a0442;
+    font-size: 16px;
+    font-family: RobotoSerif-Variable;
+}
+
+#Présentation button {
+    width: 150px;
+    height: 50px;
 }
 
 #Présentation button:focus {

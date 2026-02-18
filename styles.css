@@ -1,0 +1,131 @@
+
+html {
+    background-color: #1a0442;
+    color: #f9fdc1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+    background-color: #f9fdc1;
+    color: #1a0442;
+    text-align: center;
+}
+
+#Présentation:hover {
+    background-color: rgb(189, 240, 223);
+}
+
+#Programmation:hover {
+    background-color: rgb(189, 194, 240);
+}
+
+#Infos-pratiques:hover {
+    background-color: rgb(201, 240, 189);
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+@font-face {
+    font-family: "RubikGlitch";
+    src: url("assets/fonts/RubikGlitch-Regular.ttf");
+}
+@font-face {
+    font-family: "ComicRelief";
+    src: url("assets/fonts/ComicRelief-Regular.ttf");
+}
+@font-face {
+    font-family: "LuckiestGuy";
+    src: url("assets/fonts/LuckiestGuy-Regular.ttf");
+}
+@font-face {
+    font-family: "RobotoSerif-Variable";
+    src: url("assets/fonts/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf");
+}
+
+h1 {
+    font-size: 50px;
+    font-family: RubikGlitch;
+    color: #f9fdc1;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: LuckiestGuy;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-family: RobotoSerif-Variable;
+}
+
+video {
+    width: 1890px;
+    height: 800px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 100px;
+}
+
+button {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    border-radius: 60px;
+    background-color: #f9fdc1;
+    color: #1a0442;
+}
+
+#Présentation button:focus {
+    border-style: hidden;
+}
+
+#Programmation button {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    border: none;
+    background: none;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+#Programmation button img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

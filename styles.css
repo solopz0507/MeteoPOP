@@ -24,15 +24,15 @@ section {
 }
 
 #Présentation:hover {
-    background-color: rgb(189, 240, 223);
+    background-color: rgb(103, 95, 134);
 }
 
 #Programmation:hover {
-    background-color: rgb(189, 194, 240);
+    background-color: rgb(126, 130, 167);
 }
 
 #Infos-pratiques:hover {
-    background-color: rgb(201, 240, 189);
+    background-color: rgb(113, 138, 105);
 }
 
 #logo {
